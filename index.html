@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<section class= "w-full h-screen flex justify-center items-center ">
+  <div class="w-[30%] h-[70%] flex  flex-col  border-2  rounded border-red-500 justify-evenly shadow-lg  shadow-red-500 items-center bg-[url(/tax.jpg)]">
+    <span class="text-red-500 text-[20px] mt-[50px]">Base Price
+  <input class="outline-none text-blue-400  border-2 border-red-500 rounded" id="sal" type="number" placeholder="Enter the Total Price" /></span>
+  <span class="text-red-500 text-[20px]">Gst percent 
+    <input class="outline-none text-blue-400 border-2 border-red-500 rounded " id="tax" type="number"  placeholder="Enter the GST percent"/></span>
+ 
+  <button class="text-white font bolder bg-red-500  rounded-full w-[150px] h-[40px]" onclick="GST()">click here</button>
+  <h3  class=" text-red-500 text-[15px]"id="H3"></h3>
+  </div>
+</section>
+</body>
+<script src="index.js"></script>
+</html>
